@@ -29,6 +29,6 @@ Modul 1. Layihə "Kurs səhifəsinin layoutu"-nun tərtibi
 4) Səhifə 1280px və 992px breakpoint-də müxtəlif qurğularda düzğün formalaşır.
 5) Düzgün layout semantikası müşahidə olunur.
 6) Sənədin validasiya səhvləri yoxdur. 
-      https://validator.w3.org/#validate_by_input   -  
+      https://validator.w3.org/#validate_by_input         
       https://jigsaw.w3.org/css-validator/#validate_by_input
 7) Bütün HTML və CSS faylları kontentlərinə uyğun formatlanıb, siniflərə semantik düzgün adlar verilib. Teqlər məqsədə uyğun istifadə olunur. 
