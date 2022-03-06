@@ -99,84 +99,141 @@
 }
 
 /* -------------Elxan's css------------------ */
-
+body {
+  max-width: 1440px;
+}
 #course-program {
   width: 100%;
   height: auto;
 }
 .course-program-header {
-  font-family: "Roboto Slab", sans-serif;
-  text-align: start;
   width: 100%;
   height: 93px;
   position: relative;
+  margin: 0px 0px 95px 0px;
 }
 .course-program-header-div {
   position: absolute;
   left: 121px;
-  top: 10px;
-  padding: 0px 15rem 0px 1rem;
-  height: auto;
-  margin: 0 auto;
+  width: 905px;
+  text-align: start;
 }
 .course-program-header-h2 {
+  font-family: "Roboto Slab", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
-  line-height: 101.38%;
+  /* line-height: 101.38%; */
   color: #000000;
 }
 
 .course-program-container {
   display: flex;
   width: 100%;
-  margin-top: 3rem;
-  padding-left: 6.4%;
-  padding-right: 6.4%;
-  column-gap: 3.1%;
+  padding-left: 84px;
+  padding-right: 85px;
+  column-gap: 37px;
   flex-wrap: wrap;
 }
 .course-program-blok {
-  width: 31.225%;
-  margin-bottom: 2.5rem;
-  box-sizing: border-box;
+  width: 33%;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-  min-height: 328px;
-  border-radius: 30px;
+  height: 328px;
+  margin: 0px 0px 41px 0px;
+  border: radius 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
   -o-border-radius: 30px;
-  -webkit-border-radius: 30px;
 }
-
-.course-program-image-item {
+.course-program-image {
   width: 100%;
   height: 160px;
 }
-.course-program-blok .course-program-text {
-  box-sizing: border-box;
-  padding-bottom: 20px;
+.course-program-image-item {
+  width: 100%;
+  height: 100%;
 }
-.course-program-text-h3 {
-  margin: 11px 14px 34px 20px;
-  height: 39px;
+.course-program-text {
   font-family: Roboto;
   font-style: normal;
-  font-weight: bold;
-  font-size: 30px;
-  line-height: 130%;
+  font-weight: 700;
+  box-sizing: border-box;
+  /* line-height: 130%; */
+  line-height: 25px;
   color: #000000;
+  height: 168px;
+}
+.course-program-text-item {
+  height: 39px;
+  margin: 11px 0px 32px;
+  font-size: 30px;
+  padding: 10px;
 }
 .course-program-text-footer {
-  height: 63px;
-  font-family: Roboto;
-  font-style: normal;
+  padding: 10px;
+}
+
+.course-program-text-footer p {
   font-weight: normal;
   font-size: 25px;
-  line-height: 130%;
-  /* or 32px */
-  color: #000000;
-  margin-left: 19px;
-  margin-right: 13px;
 }
+
+/* @media screen and (min-width: 375px) and (max-width: 834px) {
+  .body {
+    width: 835px;
+  }
+
+  .course-program-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .course-program-header-div {
+    left: 70.08px;
+    top: 10px;
+    height: 53.86px;
+    margin-bottom: 50px;
+  }
+  .course-program-header-h2 {
+    font-size: 32px;
+  }
+  .course-program-container {
+    column-gap: 21.43px;
+  }
+  .course-program-blok {
+    width: 31.225%;
+    min-height: 189.97px;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 17px;
+    -webkit-border-radius: 17px;
+    -moz-border-radius: 17px;
+    -ms-border-radius: 17px;
+    -o-border-radius: 17px;
+  }
+  .course-program-image {
+    padding: 0px;
+    margin: 0px 0px 6.37px 0px;
+  }
+  .course-program-image-item {
+    width: 100%;
+    height: 92.67px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .course-program-text {
+    height: 22.59px;
+    margin: 0px;
+    padding: 0px 0px 18.53px;
+  }
+  .course-program-text-h3 {
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .course-program-text-footer {
+    height: 36.49px;
+    font-size: 14px;
+  }
+} */
