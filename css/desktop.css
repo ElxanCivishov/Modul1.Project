@@ -140,11 +140,11 @@ body {
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   height: 328px;
   margin: 0px 0px 41px 0px;
-  border: radius 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
 }
 .course-program-image {
   width: 100%;
