@@ -131,22 +131,18 @@
   display: flex;
   width: 100%;
   margin-top: 3rem;
-  padding-left: 5.5rem;
-  padding-right: 5.5rem;
-  justify-content: flex-start;
-  /* row-gap: 37px; */
-  column-gap: 37px;
+  padding-left: 6.4%;
+  padding-right: 6.4%;
+  column-gap: 3.1%;
   flex-wrap: wrap;
 }
 .course-program-blok {
-  width: 30.8%;
-  border-radius: 30px;
-  margin-bottom: 3rem;
+  width: 31.225%;
+  margin-bottom: 2.5rem;
   box-sizing: border-box;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   min-height: 328px;
-  /*justify-content: space-evenly;
-  */
+  border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -163,7 +159,7 @@
   padding-bottom: 20px;
 }
 .course-program-text-h3 {
-  margin: 11px 14px 45px 20px;
+  margin: 11px 14px 34px 20px;
   height: 39px;
   font-family: Roboto;
   font-style: normal;
