@@ -231,7 +231,8 @@ body {
     font-size: 17px;
     height: 22.59px;
     margin: 0px 0px 18.53px;
-    padding: 10px;
+    padding: 10px 10px 25px ;
+    box-sizing: border-box;
   }
 
   .course-program-text-footer {
@@ -241,7 +242,7 @@ body {
   }
   .course-program-text-footer p {
     font-size: 14px;
-    padding: 0px 0px 0px 10px;
+    padding: 10px 0px 0px 10px;
     margin: 0px;
   }
 }
