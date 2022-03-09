@@ -1,22 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .container {
-    max-width: 88%;
+    max-width: 1440px;
+    padding: 0 124px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-.second_photo {
+#classes-hours-weeks .photo {
     position: relative;
-    left: 30px;
-    bottom: 20px;
+    margin-right: 125px;
+}
+
+.photo-first {
+    width: 232px;
+	height: 203px;
+}
+
+.photo-first-ellipse {
+    width: 189px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
     z-index: -1;
+    transform: translate(0,50%);
 }
 
 #classes-hours-weeks {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    padding: 0 0 150px 0;
+    padding: 0 0 160px 0;
 }
 
 #classes-hours-weeks h3 {
@@ -27,16 +51,15 @@
 
 #classes-hours-weeks p {
     font-size: 18px;
+    line-height: 130%;
     font-weight: 400;
-    margin: 10px 0;
-}
-
-#classes-hours-weeks .item {
-    margin-right: 125px;
+    display: inline-block;
+    width: 150px;
+    margin-right: 100px;
 }
 
 #format {
-    padding: 0 0 150px 0;
+    padding: 0 0 212px 0;
 }
 
 #format h2 {
@@ -45,6 +68,7 @@
     color: #000000;
     font-size: 55px;
     line-height: 101.38%;
+    margin: 0 0 132px 0;
 }
 
 #format .items {
@@ -76,7 +100,7 @@
 }
 
 #learn {
-    padding: 0 0 150px 0;;
+    padding: 0 0 230px 0;;
 }
 
 #learn h2 {
@@ -85,6 +109,7 @@
     color: #000000;
     font-size: 55px;
     line-height: 101.38%;
+    margin: 0 0 70px 0;
 }
 
 #learn ul {
