@@ -1,56 +1,111 @@
-@media only screen and (max-width: 376px){
+@media only screen and (max-width: 376px) {
+  .container {
+    padding: 0 35px;
+  }
 
-    .container {
-        padding: 0 35px;
-    }
+  #classes-hours-weeks {
+    padding: 0 0 70px 0;
+  }
 
-    #classes-hours-weeks {
-        padding: 0 0 70px 0;
-    }
+  #classes-hours-weeks .photo {
+    display: none;
+  }
 
-    #classes-hours-weeks .photo{
-        display: none;
-    }
+  #classes-hours-weeks h3 {
+    font-size: 12px;
+    margin: 7px 0;
+  }
 
-    #classes-hours-weeks h3 {
-        font-size: 12px;
-        margin: 7px 0;
-    }
+  #classes-hours-weeks p {
+    font-size: 10px;
+    font-weight: 400;
+    width: 81px;
+    margin-right: 40px;
+  }
 
-    #classes-hours-weeks p {
-        font-size: 10px;
-        font-weight: 400;
-        width: 81px;
-        margin-right: 40px;
-    }
+  #format {
+    padding: 0 0 80px 0;
+  }
 
-    #format {
-        padding: 0 0 80px 0;
-    }
+  #format h2 {
+    font-size: 26px;
+    margin: 0 0 35px 0;
+  }
 
-    #format h2 {
-        font-size: 26px;
-        margin: 0 0 35px 0;
-    }
+  #format .items {
+    flex-direction: column;
+  }
 
-    #format .items{
-        flex-direction: column;
-    }
+  #format .item {
+    margin-right: 120px;
+  }
 
-    #format .item{
-        margin-right: 120px;
-    }
+  #learn {
+    padding: 0 0 65px 0;
+  }
 
-    #learn {
-        padding: 0 0 65px 0;
-    }
+  #learn h2 {
+    font-size: 26px;
+    margin: 0 0 30px 0;
+  }
 
-    #learn h2{
-        font-size: 26px;
-        margin: 0 0 30px 0;
-    }
-
-    #learn ul {
-        font-size: 12px;
-    }
+  #learn ul {
+    font-size: 12px;
+  }
+  .body {
+    max-width: 375px;
+  }
+  .course-program-header {
+    height: 43.34px;
+    margin: 0px 0px 35.66px 0px;
+  }
+  .course-program-header-div {
+    position: absolute;
+    left: 34px;
+  }
+  .course-program-header-h2 {
+    font-size: 26px;
+  }
+  /* ---------------blok---------- */
+  .course-program-container {
+    width: 100%;
+    display: block;
+  }
+  .course-program-blok {
+    width: 185.92px;
+    height: 152.84px;
+    margin: auto;
+    margin-bottom: 24.16px;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    -ms-border-radius: 13px;
+    -o-border-radius: 13px;
+  }
+  .course-program-image {
+    height: 74.56px;
+    margin: 0px 0px 5.13px 0px;
+  }
+  .course-program-text {
+    height: 36.8px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .course-program-text-item {
+    font-size: 14px;
+    height: 18.2px;
+    line-height: 16.5px;
+    margin: 0px 6px 14.91px 9px;
+    padding: 0px;
+  }
+  .course-program-text-footer {
+    height: 29.36px;
+    margin: 0px 6px 10px 9px;
+    padding: 0px;
+  }
+  .course-program-text-footer p {
+    font-size: 12px;
+    line-height: 15.6px;
+  }
 }
