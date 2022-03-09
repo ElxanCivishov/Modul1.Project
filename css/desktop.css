@@ -1,63 +1,83 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 .container {
-  max-width: 88%;
-  margin: 0 auto;
+    max-width: 1440px;
+    padding: 0 124px;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
-.second_photo {
-  position: relative;
-  left: 30px;
-  bottom: 20px;
-  z-index: -1;
+#classes-hours-weeks .photo {
+    position: relative;
+    margin-right: 125px;
+}
+
+.photo-first {
+    width: 232px;
+	height: 203px;
+}
+
+.photo-first-ellipse {
+    width: 189px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    z-index: -1;
+    transform: translate(0,50%);
 }
 
 #classes-hours-weeks {
-  display: flex;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  padding: 0 0 150px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 160px 0;
 }
 
 #classes-hours-weeks h3 {
-  font-size: 25px;
-  font-weight: 700;
-  margin: 10px 0;
+    font-size: 25px;
+    line-height: 130%;
+    font-weight: 700;
+    margin: 10px 0;
 }
 
 #classes-hours-weeks p {
-  font-size: 18px;
-  font-weight: 400;
-  margin: 10px 0;
-}
-
-#classes-hours-weeks .item {
-  margin-right: 125px;
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 400;
+    display: inline-block;
+    width: 150px;
+    margin-right: 100px;
 }
 
 #format {
-  padding: 0 0 150px 0;
+    padding: 0 0 212px 0;
 }
 
 #format h2 {
-  font-family: "Roboto Slab", serif;
-  font-weight: bold;
-  color: #000000;
-  font-size: 55px;
-  line-height: 101.38%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin: 0 0 132px 0;
 }
 
 #format .items {
   display: flex;
 }
 
-#format .item {
-  /*width: 223px;*/
-  margin-right: 125px;
+#format .item{
+    margin-right: 125px;
 }
 
 #format h3 {
@@ -79,302 +99,23 @@
 }
 
 #learn {
-  padding: 0 0 150px 0;
+    padding: 0 0 230px 0;;
 }
 
 #learn h2 {
-  font-family: "Roboto Slab", serif;
-  font-weight: bold;
-  color: #000000;
-  font-size: 55px;
-  line-height: 101.38%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin: 0 0 70px 0;
 }
 
 #learn ul {
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #000000;
-  font-size: 24px;
-  line-height: 150%;
-}
-
-/* -------------Elxan's css------------------ */
-
-#course-program {
-  max-width: 1440px;
-  height: auto;
-}
-.course-program-header {
-  height: 93px;
-  margin: 0px 0px 95px 121px;
-  display: flex;
-  justify-content: flex-start;
-  width: 67.1%;
-}
-.course-program-header-h2 {
-  font-family: "Roboto Slab", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 55.76px;
-  color: #000000;
-}
-
-.course-program-container {
-  display: flex;
-  width: 100%;
-  padding: 0px 85px 121px 84px;
-  justify-content: flex-start;
-  align-items: flex-start;
-  column-gap: 37px;
-  flex-wrap: wrap;
-}
-
-.course-program-blok {
-  width: 31.1%;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-  height: 328px;
-  margin: 0px 0px 41px 0px;
-  background: #fff;
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-}
-.course-program-image {
-  width: 100%;
-  height: 160px;
-}
-.course-program-image-item {
-  width: 100%;
-  height: 100%;
-}
-.course-program-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  box-sizing: border-box;
-  line-height: 28px;
-  color: #000000;
-  height: 168px;
-}
-.course-program-text-item {
-  height: 39px;
-  margin: 11px 0px 32px;
-  font-size: 30px;
-  padding: 10px 10px 10px 15px;
-}
-.course-program-text-footer {
-  padding: 10px 10px 10px 15px;
-}
-
-.course-program-text-footer p {
-  font-weight: normal;
-  font-size: 25px;
-}
-/* ----------------course-participants-------- */
-#course-participants {
-  width: 100%;
-  height: 780px;
-  margin-left: -1px;
-  padding-top: 91px;
-  padding-bottom: 111px;
-  background: #efefef;
-}
-.course-participants-header {
-  height: 93px;
-  margin-left: 122px;
-  width: 67.1%;
-  margin-bottom: 34px;
-}
-.course-participants-header-h2 {
-  font-family: "Roboto Slab";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 55.76px;
-  color: #000000;
-}
-#course-participants .blok {
-  margin-left: 126px;
-  margin-right: 30%;
-  max-width: 58.5%;
-  min-height: 451px;
-  background-color: #fff;
-  box-sizing: border-box;
-  padding-top: 40px;
-  padding-bottom: 29px;
-
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-}
-#course-participants .blok .text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  margin: 0px 46px 10px 45px;
-  line-height: 150%;
-  color: #000000;
-}
-#course-participants .blok .footer {
-  display: flex;
-  padding: 0px;
-  margin: 0px;
-}
-.blok .footer .image {
-  max-width: 190px;
-  max-height: 169px;
-  margin-left: 26px;
-}
-.footer .image-item {
-  width: 100%;
-  height: 100%;
-}
-.blok .footer .name {
-  padding-top: 40px;
-  margin-left: 30px;
-
-  color: #000000;
-}
-.blok .footer .name .name-text {
-  width: 353px;
-  height: 59px;
-}
-.name .name-text h2 {
-  font-family: "Roboto Slab";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 30px;
-  line-height: 30px;
-}
-.blok .footer .name .fab-icon {
-  width: 32px;
-  height: 31px;
-}
-.name .fab-icon img {
-  width: 100%;
-  height: 100%;
-}
-
-@media screen and (min-width: 376px) and (max-width: 834px) {
-  #curse-program {
-    max-width: 834px;
-  }
-
-  .course-program-header {
-    height: 53.86px;
-    margin: 0px 0px 55.02px 70.08px;
-  }
-  .course-program-header-h2 {
-    font-size: 32px;
-  }
-  /* ---------------blok---------- */
-  .course-program-container {
-    column-gap: 21.43px;
-    padding-left: 48px;
-    padding-right: 49px;
-  }
-  .course-program-blok {
-    width: 31.2%;
-    height: 189.97px;
-    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-    box-sizing: border-box;
-    border-radius: 17px;
-    -webkit-border-radius: 17px;
-    -moz-border-radius: 17px;
-    -ms-border-radius: 17px;
-    -o-border-radius: 17px;
-  }
-  .course-program-image {
-    height: 92.67px;
-    width: 100%;
-  }
-  .course-program-text {
-    height: 97.3px;
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-    line-height: 16.5px;
-  }
-  .course-program-text-item {
-    font-size: 17px;
-    height: 22.59px;
-    width: 100%;
-    padding: 10px 10px 25px;
-    margin: 0%;
-  }
-
-  .course-program-text-footer {
-    box-sizing: border-box;
-    height: 36.49px;
-    margin: 3px 0px 0px;
-    padding: 0px 0px 10px;
-  }
-  .course-program-text-footer p {
-    font-size: 14px;
-    padding: 10px;
-    margin: 0px;
-  }
-}
-@media screen and (max-width: 375px) {
-  #course-program {
-    max-width: 375px;
-  }
-  .course-program-header {
-    height: 43.34px;
-    margin: 0px 0px 35.66px 34px;
-  }
-
-  .course-program-header-h2 {
-    font-size: 26px;
-  }
-  /* ---------------blok---------- */
-  .course-program-container {
-    width: 100%;
-    display: block;
-  }
-  .course-program-blok {
-    width: 185.92px;
-    height: 152.84px;
-    margin: auto;
-    margin-bottom: 24.16px;
-    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-    border-radius: 13px;
-    -webkit-border-radius: 13px;
-    -moz-border-radius: 13px;
-    -ms-border-radius: 13px;
-    -o-border-radius: 13px;
-  }
-  .course-program-image {
-    height: 74.56px;
-    margin: 0px 0px 5.13px 0px;
-  }
-
-  .course-program-text {
-    height: 36.8px;
-    padding: 0px;
-    margin: 0px;
-  }
-  .course-program-text-item {
-    font-size: 14px;
-    height: 18.2px;
-    line-height: 16.5px;
-    margin: 0px 6px 14.91px 9px;
-    padding: 0px;
-  }
-
-  .course-program-text-footer {
-    height: 29.36px;
-    margin: 0px 6px 10px 9px;
-    padding: 0px;
-  }
-  .course-program-text-footer p {
-    font-size: 12px;
-    line-height: 15.6px;
-  }
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    list-style-position: inside;
+    font-size: 24px;
+    line-height: 150%;
 }
