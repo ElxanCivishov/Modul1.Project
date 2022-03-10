@@ -24,7 +24,11 @@
     left: 15%;
     z-index: -1;
     transform: translate(0, 25%);
-  }
+    -webkit-transform: translate(0, 25%);
+    -moz-transform: translate(0, 25%);
+    -ms-transform: translate(0, 25%);
+    -o-transform: translate(0, 25%);
+}
 
   #classes-hours-weeks h3 {
     font-size: 15px;
@@ -80,13 +84,12 @@
   .course-program-header {
     height: 53.86px;
     /* position: relative; */
-    margin: 0px 0px 55.02px 0px;
+    margin: 0px 0px 55.02px 70.08px;
   }
   .course-program-header-div {
     /* position: absolute; */
-    left: 70.08px;
+    /* left: 70.08px; */
     width: 524.15px;
-    text-align: start;
   }
   .course-program-header-h2 {
     font-size: 32px;
