@@ -1,0 +1,127 @@
+@media only screen and (max-width: 834px) {
+  #course-start {
+    max-height: 451.75px;
+  }
+  #course-participants {
+    max-height: 451.75px;
+  }
+  #footer {
+    height: 225.88px;
+    box-sizing:border-box ;
+    padding:0px;
+  }
+  .footer-container{
+      height: 100%;
+  }
+  .participant-img {
+    max-width: 458.12px;
+    min-height: 261.2px;
+  }
+  #participants-header {
+    font-size: 32px;
+    width: 571.64px;
+    height: 53.86px;
+  }
+  
+  #participantdiv {
+    font-size: 12px;
+    max-width: 405.42px;
+    min-height: 117.57px;
+  }
+
+  .participantflex {
+    margin-top: 20px;
+    margin-left: 0px;
+    padding-left: 0px;
+    max-width: 150.04px;
+    min-height: 87.88px;
+
+  }
+  #girlicon {
+    max-width: 110.04px;
+    min-height: 97.88px;
+  }
+  #fbicon {
+    width: 18.53px;
+    height: 17.95px;
+  }
+  #yekaterina {
+    font-size: 17px;
+    height:34px;
+  }
+  #yekaterinafb{
+      padding-top:25px;
+  }
+
+
+
+  #sentyabr {
+    font-size: 32px;
+    width: 525.88px;
+    height: 38.23px;
+  }
+  #price {
+    font-size: 14px;
+  }
+  .priceflex {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  #pricevalue {
+    font-size: 46px;
+    width: 278.58px;
+    height: 104.83px;
+  }
+  #priceheader1,
+  #priceheader2 {
+    font-size: 14px;
+    width: 170.28px;
+    height: 18.53px;
+  }
+
+  .pricetext {
+    font-size: 10px;
+    width: 170.28px;
+    height: 40.54px;
+  }
+
+
+  
+  #logo-mobile-icon {
+    width: 66.6px;
+    height: 39.38px;
+  }
+  #footer-icon-flex{
+      padding-right: 10%;
+      margin-bottom: 0px;
+  }
+  #contact{
+      margin-right:0px;
+  }
+  #phone-number,
+  #mail {
+    font-size: 14px;
+    width: 133.21px;
+    height: 23.17px;
+  }
+  
+  #phone-icon,#mail-icon {
+    width: 15.64px;
+    height: 15.64px;
+    margin-right: 10px;
+  }
+
+  .socialicon{
+    width: 19.11px;
+    height: 19.11px;
+  }
+  #copyright {
+    font-size: 10px;
+    width: 133.21px;
+    height: 23.17px;
+    margin-top:84.56px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+    padding-bottom: 13.32px;
+  }
+}
