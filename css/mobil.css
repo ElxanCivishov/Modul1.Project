@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 377px) {
   #course-participants {
     max-height: 423px;
@@ -10,11 +9,10 @@
   }
   .course-start-container {
     height: 363px;
-  
   }
-.footer-container{
-  height:100%;
-}
+  .footer-container {
+    height: 100%;
+  }
   #footer {
     box-sizing: border-box;
     height: 251px;
@@ -35,7 +33,6 @@
     padding-right: 30px;
     margin-right: 8%;
     margin-top: 35px;
-    box-sizing: border-box;
   }
   #participantdiv {
     font-size: 10px;
@@ -43,10 +40,11 @@
     max-height: 111px;
   }
   .participantflex {
-    max-width: 150.04px;
+    max-width: 100.04px;
     min-height: 47.88px;
-    margin-top:10px;
-    padding: 0;
+    margin-top: 40px;
+    margin-left: 0;
+    padding-left: 0;
   }
 
   #yekaterina {
@@ -59,10 +57,9 @@
     height: 17.2px;
   }
   #girlicon {
-    max-width: 100px;
+    width: 100px;
     min-height: 84px;
     padding-left: 0px;
-
   }
 
   h3 {
@@ -93,13 +90,14 @@
 
   .pricetext {
     font-size: 10px;
-    max-width: 138px;
+    max-width: 100px;
     height: 47px;
   }
 
   .priceflex {
     display: flex;
     padding-bottom: 63pxpx;
+    width:270px;
   }
 
   #firstpricebox {
@@ -107,11 +105,10 @@
     min-height: 47px;
   }
 
-  #secondpricebox{
+  #secondpricebox {
     max-width: 100px;
     min-height: 38px;
   }
-  
 
   #logo-mobile-icon {
     width: 53.59px;
@@ -133,7 +130,7 @@
     margin-right: 10px;
   }
 
-  #mail-icon{
+  #mail-icon {
     width: 12.58px;
     height: 8.39px;
     margin-right: 10px;
@@ -143,9 +140,9 @@
     font-size: 10px;
     width: 141px;
     height: 19px;
-    margin-top:47px;
-    margin-left:30px;
-    color:white;
+    margin-top: 47px;
+    margin-left: 30px;
+    color: white;
   }
 
   .socialicon {
@@ -162,55 +159,53 @@
     margin-top: 47px;
   }
 
+  .container {
+    padding: 0 35px;
+  }
 
+  #classes-hours-weeks {
+    padding: 0 0 70px 0;
+  }
 
-    .container {
-        padding: 0 35px;
-    }
+  #classes-hours-weeks .photo {
+    display: none;
+  }
 
-    #classes-hours-weeks {
-        padding: 0 0 70px 0;
-    }
+  #classes-hours-weeks h3 {
+    font-size: 12px;
+    margin: 7px 0;
+  }
 
-    #classes-hours-weeks .photo{
-        display: none;
-    }
+  #classes-hours-weeks p {
+    font-size: 10px;
+    font-weight: 400;
+    width: 81px;
+    margin-right: 40px;
+  }
 
-    #classes-hours-weeks h3 {
-        font-size: 12px;
-        margin: 7px 0;
-    }
+  #format {
+    padding: 0 0 80px 0;
+  }
 
-    #classes-hours-weeks p {
-        font-size: 10px;
-        font-weight: 400;
-        width: 81px;
-        margin-right: 40px;
-    }
+  #format h2 {
+    font-size: 26px;
+    margin: 0 0 35px 0;
+  }
 
-    #format {
-        padding: 0 0 80px 0;
-    }
+  #format .items {
+    flex-direction: column;
+  }
 
-    #format h2 {
-        font-size: 26px;
-        margin: 0 0 35px 0;
-    }
+  #format .item {
+    margin-right: 120px;
+  }
 
-    #format .items{
-        flex-direction: column;
-    }
+  #learn {
+    padding: 0 0 65px 0;
+  }
 
-    #format .item{
-        margin-right: 120px;
-    }
-
-    #learn {
-        padding: 0 0 65px 0;
-    }
-
-    #learn h2{
-        font-size: 26px;
-        margin: 0 0 30px 0;
-    }
+  #learn h2 {
+    font-size: 26px;
+    margin: 0 0 30px 0;
+  }
 }
