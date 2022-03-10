@@ -261,3 +261,128 @@
   margin-top: 140px;
   margin-right: 0;
 }
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.container {
+    max-width: 1440px;
+    padding: 0 124px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+#classes-hours-weeks .photo {
+    position: relative;
+    margin-right: 125px;
+}
+
+.photo-first {
+    width: 232px;
+	height: 203px;
+}
+
+.photo-first-ellipse {
+    width: 189px;
+    height: 32px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    z-index: -1;
+    transform: translate(0,50%);
+}
+
+#classes-hours-weeks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 0 160px 0;
+}
+
+#classes-hours-weeks h3 {
+    font-size: 25px;
+    line-height: 130%;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+#classes-hours-weeks p {
+    font-size: 18px;
+    line-height: 130%;
+    font-weight: 400;
+    display: inline-block;
+    width: 150px;
+    margin-right: 100px;
+}
+
+#format {
+    padding: 0 0 212px 0;
+}
+
+#format h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin: 0 0 132px 0;
+}
+
+#format .items {
+    display: flex;
+}
+
+#format .item{
+    margin-right: 125px;
+}
+
+#format h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #1E4681;
+    font-size: 25px;
+    line-height: 130%;
+    margin: 5px 0;
+}
+
+#format p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    font-size: 18px;
+    line-height: 130%;
+    margin: 5px 0;
+}
+
+#learn {
+    padding: 0 0 230px 0;;
+}
+
+#learn h2 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 55px;
+    line-height: 101.38%;
+    margin: 0 0 70px 0;
+}
+
+#learn ul {
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    color: #000000;
+    list-style-position: inside;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+#learn span {
+    position: relative;
+    left: -10px;
+}

@@ -1,3 +1,4 @@
+
 @media only screen and (max-width: 377px) {
   #course-participants {
     max-height: 423px;
@@ -160,4 +161,56 @@
     margin-bottom: 0px;
     margin-top: 47px;
   }
+
+
+
+    .container {
+        padding: 0 35px;
+    }
+
+    #classes-hours-weeks {
+        padding: 0 0 70px 0;
+    }
+
+    #classes-hours-weeks .photo{
+        display: none;
+    }
+
+    #classes-hours-weeks h3 {
+        font-size: 12px;
+        margin: 7px 0;
+    }
+
+    #classes-hours-weeks p {
+        font-size: 10px;
+        font-weight: 400;
+        width: 81px;
+        margin-right: 40px;
+    }
+
+    #format {
+        padding: 0 0 80px 0;
+    }
+
+    #format h2 {
+        font-size: 26px;
+        margin: 0 0 35px 0;
+    }
+
+    #format .items{
+        flex-direction: column;
+    }
+
+    #format .item{
+        margin-right: 120px;
+    }
+
+    #learn {
+        padding: 0 0 65px 0;
+    }
+
+    #learn h2{
+        font-size: 26px;
+        margin: 0 0 30px 0;
+    }
 }
