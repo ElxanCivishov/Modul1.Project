@@ -1,4 +1,4 @@
-@media only screen and (max-width: 835px) {
+@media only screen and (max-width: 834px) {
   .container {
     padding: 0 70px;
   }
@@ -28,7 +28,7 @@
     -moz-transform: translate(0, 25%);
     -ms-transform: translate(0, 25%);
     -o-transform: translate(0, 25%);
-}
+  }
 
   #classes-hours-weeks h3 {
     font-size: 15px;
@@ -76,67 +76,61 @@
   #learn ul {
     font-size: 14px;
   }
-  /* ----------Elxan's css  for tablet ------- */
 
-  .body {
+  /* ----------Elxan's css  for tablet ------- */
+  #course-program {
     max-width: 834px;
   }
-  .course-program-header {
+  #course-program-header {
     height: 53.86px;
-    /* position: relative; */
-    margin: 0px 0px 55.02px 70.08px;
+    width: 62.85%;
+    margin: 143.63px 0px 55.02px 70.08px;
   }
-  .course-program-header-div {
-    /* position: absolute; */
-    /* left: 70.08px; */
-    width: 524.15px;
-  }
-  .course-program-header-h2 {
+  #course-program-header h2 {
     font-size: 32px;
+    line-height: 32.44px;
   }
   /* ---------------blok---------- */
   .course-program-container {
     column-gap: 21.43px;
     width: 100%;
-    padding-left: 48px;
-    padding-right: 49px;
-    /* jcx,mx/ */
+    padding-left: 5.2%;
+    padding-right: 5.2%;
   }
   .course-program-blok {
-    width: 30.5%;
+    width: 31%;
     height: 189.97px;
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-    border-radius: 17px;
-    -webkit-border-radius: 17px;
-    -moz-border-radius: 17px;
-    -ms-border-radius: 17px;
-    -o-border-radius: 17px;
+    border-radius: 17.38px;
+    -webkit-border-radius: 17.38px;
+    -moz-border-radius: 17.38px;
+    -ms-border-radius: 17.38px;
+    -o-border-radius: 17.38px;
   }
   .course-program-image {
     height: 92.67px;
   }
+
   .course-program-text {
     height: 97.3px;
     padding: 0px;
     margin: 0px;
-    line-height: 16.5px;
   }
   .course-program-text-item {
     font-size: 17px;
     height: 22.59px;
-    margin: 0px 0px 18.53px;
-    padding: 10px 10px 25px;
-    box-sizing: border-box;
+    line-height: 16.5px;
+    margin: 6.37px 8.11px 18.53px 11.58px;
+    padding-top: 4px;
+    padding-bottom: 3px;
   }
 
   .course-program-text-footer {
     height: 36.49px;
-    margin: 0px 0px 20px;
-    padding: 0px 0px 10px;
+    margin: 18.53px 8.69px 13.32px 11px;
   }
   .course-program-text-footer p {
     font-size: 14px;
-    padding: 10px 0px 0px 10px;
-    margin: 0px;
+    line-height: 18.2px;
   }
 }

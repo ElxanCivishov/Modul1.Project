@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -121,48 +123,40 @@
   line-height: 150%;
 }
 /* --Elxan's css ------- */
-/* body {
-  max-width: 1440px;
-} */
+
 #course-program {
-  width: 100%;
+  max-width: 1440px;
   height: auto;
 }
-.course-program-header {
-  width: 100%;
+#course-program-header {
+  width: 67.1%;
   height: 93px;
-  /* position: relative; */
-  margin: 0px 0px 95px 121px;
+  margin: 248px 0px 95px 121px;
 }
-.course-program-header-div {
-  /* position: absolute;
-  left: 121px; */
-  width: 905px;
-  text-align: start;
-}
-.course-program-header-h2 {
-  font-family: "Roboto Slab", sans-serif;
+
+#course-program-header h2 {
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: 700;
   font-size: 55px;
-  /* line-height: 101.38%; */
+  line-height: 56px;
   color: #000000;
 }
 .course-program-container {
   display: flex;
   width: 100%;
-  padding-left: 84px;
-  padding-right: 85px;
+  padding-left: 6.4%;
+  padding-right: 6.2%;
   column-gap: 37px;
   flex-wrap: wrap;
 }
 .course-program-blok {
-  width: 31.1%;
+  width: 31.19%;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   height: 328px;
-  margin: 0px 0px 41px 0px;
+  margin-bottom: 41px;
   background: #fff;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
@@ -173,30 +167,34 @@
   width: 100%;
   height: 160px;
 }
-.course-program-image-item {
+.course-program-image img {
   width: 100%;
   height: 100%;
 }
 .course-program-text {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
-  font-weight: 700;
-  box-sizing: border-box;
-  /* line-height: 130%; */
-  line-height: 28px;
+  line-height: 39px;
   color: #000000;
   height: 168px;
 }
 .course-program-text-item {
   height: 39px;
-  margin: 11px 0px 32px;
+  font-weight: 700;
+  margin: 11px 14px 32px 20px;
   font-size: 30px;
-  padding: 10px 10px 10px 15px;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 .course-program-text-footer {
-  padding: 10px 10px 10px 15px;
+  line-height: 32.5px;
+  vertical-align: top;
+  margin: 32px 15px 23px 19px;
+  padding-top: 7px;
+  padding-bottom: 5px;
 }
 .course-program-text-footer p {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 25px;
 }
