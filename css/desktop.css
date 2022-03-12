@@ -151,12 +151,12 @@
   flex-wrap: wrap;
 }
 .course-program-blok {
-  width: 31.19%;
+  width: 31%;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
   height: 328px;
   margin-bottom: 41px;
   background: #fff;
-  /* padding-bottom: 10px; */
+  /*padding-bottom: 10px */
   border-radius: 30px;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
