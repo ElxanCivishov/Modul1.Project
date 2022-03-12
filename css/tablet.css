@@ -1,77 +1,136 @@
-@media only screen and (max-width: 835px){
-    .container {
-        padding: 0 70px;
-    }
+@media only screen and (max-width: 834px) {
+  .container {
+    padding: 0 70px;
+  }
 
-    #classes-hours-weeks {
-        padding-bottom: 90px;
-    }
+  #classes-hours-weeks {
+    padding-bottom: 90px;
+  }
 
-    #classes-hours-weeks .photo {
-        margin-right: 77px;
-    }
+  #classes-hours-weeks .photo {
+    margin-right: 77px;
+  }
 
-    .photo-first {
-        width: 134.37px;
-        height: 117.57px;
-        
-    }
+  .photo-first {
+    width: 134.37px;
+    height: 117.57px;
+  }
 
-    .photo-first-ellipse {
-        width: 109.46px;
-        height: 18.53px;
-        position: absolute;
-        bottom: 0;
-        left: 15%;
-        z-index: -1;
-        transform: translate(0,25%);
-    }
+  .photo-first-ellipse {
+    width: 109.46px;
+    height: 18.53px;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+    z-index: -1;
+    transform: translate(0, 25%);
+    -webkit-transform: translate(0, 25%);
+    -moz-transform: translate(0, 25%);
+    -ms-transform: translate(0, 25%);
+    -o-transform: translate(0, 25%);
+  }
 
-    #classes-hours-weeks h3 {
-        font-size: 15px;
-        line-height: 130%;
-    }
+  #classes-hours-weeks h3 {
+    font-size: 15px;
+    line-height: 130%;
+  }
 
-    #classes-hours-weeks p {
-        font-size: 11px;
-        
-        margin: 8px 0;
-        width: 90px;
-        margin-right: 50px;
-    }
+  #classes-hours-weeks p {
+    font-size: 11px;
 
-    #format {
-        padding: 0 0 122px 0;
-    }
+    margin: 8px 0;
+    width: 90px;
+    margin-right: 50px;
+  }
 
-    #format h2 {
-        font-size: 32px;
-        margin: 0 0 80px 0;
-    }
+  #format {
+    padding: 0 0 122px 0;
+  }
 
-    #format .item{
-        margin-right: 64px;
-    }
+  #format h2 {
+    font-size: 32px;
+    margin: 0 0 80px 0;
+  }
 
-    #format h3{
-        font-size: 15px;
-    }
+  #format .item {
+    margin-right: 64px;
+  }
 
-    #format p{
-        font-size: 11px;
-    }
-    
-    #learn {
-        padding: 0 0 130px 0;;
-    }
+  #format h3 {
+    font-size: 15px;
+  }
 
-    #learn h2 {
-        font-size: 32px;
-        margin: 0 0 40px 0;
-    }
+  #format p {
+    font-size: 11px;
+  }
 
-    #learn ul {
-        font-size: 14px;
-    }
+  #learn {
+    padding: 0 0 130px 0;
+  }
+
+  #learn h2 {
+    font-size: 32px;
+    margin: 0 0 40px 0;
+  }
+
+  #learn ul {
+    font-size: 14px;
+  }
+
+  /* ----------Elxan's css  for tablet ------- */
+  #course-program {
+    max-width: 834px;
+  }
+  #course-program-header {
+    height: 53.86px;
+    width: 62.85%;
+    margin: 143.63px 0px 55.02px 70.08px;
+  }
+  #course-program-header h2 {
+    font-size: 32px;
+    line-height: 32.44px;
+  }
+  /* ---------------blok---------- */
+  .course-program-container {
+    column-gap: 21.43px;
+    width: 100%;
+    padding-left: 5.2%;
+    padding-right: 5.2%;
+  }
+  .course-program-blok {
+    width: 31%;
+    height: 189.97px;
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 17.38px;
+    -webkit-border-radius: 17.38px;
+    -moz-border-radius: 17.38px;
+    -ms-border-radius: 17.38px;
+    -o-border-radius: 17.38px;
+  }
+  .course-program-image {
+    height: 92.67px;
+  }
+
+  .course-program-text {
+    height: 97.3px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .course-program-text-item {
+    font-size: 17px;
+    height: 22.59px;
+    line-height: 16.5px;
+    margin: 6.37px 8.11px 18.53px 11.58px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+  }
+
+  .course-program-text-footer {
+    height: 36.49px;
+    margin: 18.53px 8.69px 13.32px 11px;
+  }
+  .course-program-text-footer p {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
 }
-
