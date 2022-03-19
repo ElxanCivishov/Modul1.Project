@@ -40,15 +40,13 @@
     max-height: 111px;
   }
   .participantflex {
-    max-width: 100.04px;
+    max-width: 300.04px;
     min-height: 47.88px;
     margin-top: 40px;
-    margin-left: 0;
-    padding-left: 0;
   }
 
   #yekaterina {
-    width: 164.49px;
+    width: 150.49px;
     height: 32.73px;
     font-size: 14px;
   }
@@ -57,9 +55,12 @@
     height: 17.2px;
   }
   #girlicon {
-    width: 100px;
+    width: 95px;
     min-height: 84px;
-    padding-left: 0px;
+    padding: 0px;
+  }
+  #yekaterinafb{
+    padding-left: 0;
   }
 
   h3 {
@@ -207,5 +208,50 @@
   #learn h2 {
     font-size: 26px;
     margin: 0 0 30px 0;
+  }
+}
+ @media only screen and (max-width:540px){
+   #participants-header{
+     max-width:300px;
+     min-height:100px;
+   }
+
+   #sentyabr{
+    max-width:300px;
+    min-height:100px;
+   }
+
+   .participant-img{
+    max-width: 308px;
+    min-height: 390px;
+   }
+   
+
+    
+  #yekaterina {
+    width: 150px;
+    height: 32.73px;
+    font-size: 14px;
+  }
+  #fbicon {
+    width: 14.91px;
+    height: 17.2px;
+  }
+  #girlicon {
+    width: 85px;
+    min-height: 64px;
+    padding: 0px;
+  }
+ }
+
+ @media only screen and (max-width:464px){
+  #participants-header{
+    max-width:200px;
+    min-height:100px;
+  }
+
+  #sentyabr{
+   max-width:200px;
+   min-height:100px;
   }
 }

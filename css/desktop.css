@@ -9,6 +9,12 @@
   box-sizing: border-box;
 }
 
+.container {
+    max-width: 1440px;
+    padding: 0 124px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 .course-participants-container {
   width: 100%;
   background: #efefef;
@@ -263,18 +269,6 @@
 
 
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-.container {
-    max-width: 1440px;
-    padding: 0 124px;
-    margin: 0 auto;
-    box-sizing: border-box;
-}
 
 #classes-hours-weeks .photo {
     position: relative;
