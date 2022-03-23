@@ -111,4 +111,138 @@
     font-size: 12px;
     line-height: 15.6px;
   }
+
+
+  /* -----Rafael's for mobil---- */
+  .first{
+    width: 52.19px;
+    height: 30.75px;
+    min-width: 52.19px;
+    min-height: 30.75px;
+    margin-bottom: 44px;
+}
+.globe1{
+    width: 11%;
+    max-height: 21px;
+}
+.globe2, .date2, .time2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 115%;
+    margin-left: 5px;
+    align-items: center;
+    align-self: center;
+}
+.globe-image, .date-image, .time-image{
+    width: 100%;
+    height: 100%;
+}
+.globe1, .time1, .date1{
+    align-items: center;
+    align-self: center;
+    min-width: 14px;
+    min-height: 14px;
+}
+.time1{
+    width: 12%;
+    max-height: 22px;
+}
+.time2{
+    text-shadow: none;
+    font-weight: normal;
+}
+.date1{
+    width: 10%;
+    max-height: 22px;
+    min-height: 14px;
+    min-width: 14px;
+}
+.date, .globe{
+    width: 11.1%;
+    min-width: 100px;
+}
+.time{
+    width: 11.1%;
+    min-width: 100px;
+}
+.main-2{
+    width: 100%;
+    display: block;
+}
+.nolan{
+    width: 141.66px;
+    height: 165.89px;
+    min-width: 141.66px;
+    min-height: 165.89px;
+    max-height: 165.89px;
+    margin-left: 50%;
+}
+.ellipse1{
+    position:absolute;
+    bottom: -12px;
+    right: 0px;
+    width: 127px;
+    z-index: -1;
+}
+.kino{
+    width: 290px;
+}
+.kino-head{
+    font-size: 37px;
+    width: 290px;
+}
+.kino-text{
+    font-size: 10px;
+}
+.block{
+    width: 225px;
+    height: 93px;
+    margin-left: 9%;
+}
+.block-text{
+    font-size: 11px;
+    padding-left: 12px;
+    padding-top: 9px;
+}
+.block-author{
+    font-size: 13px;
+}
+.wick{
+    display: block;
+}
+h1{
+    font-size: 26px;
+}
+.okurse{
+    display: block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    width: 70%;
+}
+.camera{
+    width: 146.32px;
+    height: 146.78px;
+    min-width: 146.32px;
+    min-height: 146.78px;
+    margin: 15px 40%;
+    flex-direction: column;
+}
+.camera-photo{
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.ellipse2{
+    bottom: -13.5px;
+    right: -12px;
+    width: 170.5px;
+    height: 27px;
+    z-index: -1;
+}
 }

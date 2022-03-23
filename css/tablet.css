@@ -130,4 +130,77 @@
     font-size: 14px;
     line-height: 18.2px;
   }
+
+  /* ---------Rafael's for tablet --------- */
+  .first{
+    width: 64.87px;
+    height: 38.23px;
+    max-width: 64.87px;
+    max-height: 38.23px;
+}
+.time{
+    margin-left: 20px;
+}
+.nolan{
+    width: 176px;
+    min-width: 176px;
+    min-height: 206px;
+    max-height: 206px;
+    margin-right: 17%;
+    margin-left: 9%;
+    position: relative;
+    z-index: 0;
+}
+.ellipse2{
+    position:absolute;
+    bottom: -12px;
+    right: 0px;
+    width: 158px;
+    z-index: -1;
+}
+.kino-head{
+    font-size: 46px;
+}
+.kino-text{
+    font-size: 12px;
+}
+.block{
+    width: 280px;
+    height: 115px;
+}
+.block-text{
+    font-size: 14px;
+}
+.block-author{
+    font-size: 12px;
+}
+h1{
+    font-size: 32px;
+}
+.okurse{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+}
+.camera{
+    width: 181.86px;
+    height: 182.44px;
+    min-width: 181.86px;
+    min-height: 182.44px;
+}
+.camera-photo{
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.ellipse1{
+    bottom: -17px;
+    right: -15px;
+    width: 211.98px;
+    height: 34.17px;
+    z-index: -1;
+    }
+
 }
