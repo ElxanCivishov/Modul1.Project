@@ -8,6 +8,7 @@
   }
   .course-start-container {
     height: 363px;
+    padding-top: 62px;
   }
   .footer-container {
     height: 100%;
@@ -18,29 +19,32 @@
     padding: 0px;
     margin: 0;
   }
-
+  .course-participants-container {
+    height: 423px;
+  }
   h4 {
     margin-top: 20px;
+    margin-bottom: 11px;
     font-size: 26px;
     width: 257px;
     height: 69px;
   }
   .participant-img {
     max-width: 308px;
-    min-height: 248px;
-    padding: 20px;
-    padding-right: 30px;
+    max-height: 248px;
+    padding: 0px 30px 10px 20px;
     margin-right: 8%;
-    margin-top: 35px;
+    margin-top: 20px;
   }
   #participantdiv {
     font-size: 10px;
     max-width: 266px;
     max-height: 111px;
+    padding-top: 20px;
   }
   .participantflex {
     max-width: 300.04px;
-    min-height: 47.88px;
+    max-height: 47.88px;
     margin-top: 40px;
   }
 
@@ -61,11 +65,14 @@
   #yekaterinafb {
     padding-left: 0;
   }
+  #sentyabr {
+    max-height: 63px;
+    width: 224px;
+  }
 
   h3 {
-    margin-top: 20px;
     width: 224px;
-    height: 63px;
+    height: 100%;
     font-size: 26px;
   }
   #price {
@@ -164,7 +171,7 @@
   }
 
   #classes-hours-weeks {
-    padding: 0 0 70px 0;
+    padding: 0;
     margin-left: 35px;
   }
 
@@ -174,52 +181,48 @@
 
   #classes-hours-weeks h3 {
     font-size: 12px;
-    margin: 7px 0;
+    margin: 0;
+    padding: 10px 0px;
   }
-
   #classes-hours-weeks p {
     font-size: 10px;
     font-weight: 400;
     width: 81px;
+    margin: 0;
     margin-right: 40px;
   }
-  .item h3 {
-    height: 18px;
-    width: 69px;
-    margin: 0px;
-    margin-bottom: 10px;
-  }
-  #classes-hours-weeks p {
-    margin: 0px 33px 34px 0px;
-  }
   #format {
-    padding: 0 0 80px 0;
-    margin-left: 35px;
-    margin-top: 0px;
-    margin-top: 0px;
+    padding: 0;
+    margin: 73px 10px 0px 35px;
   }
 
   #format h2 {
     font-size: 26px;
     margin: 0;
   }
-
   #format .items {
     flex-direction: column;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
-
   #format .item {
-    margin-right: 120px;
+    padding-bottom: 0px;
   }
 
   #learn {
-    padding: 0 0 65px 0;
+    padding: 0;
     margin-left: 35px;
+    margin-top: 73px;
   }
 
   #learn h2 {
     font-size: 26px;
-    margin: 0 0 30px 0;
+    height: 43px;
+    margin: 0;
+  }
+  #learn ul {
+    margin-top: 10px;
+    padding-bottom: 0px;
   }
 
   /* ---------Elxan's css for mobil-------- */
@@ -422,49 +425,5 @@
     right: -12px;
     width: 170.5px;
     height: 27px;
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  #participants-header {
-    max-width: 300px;
-    min-height: 100px;
-  }
-
-  #sentyabr {
-    max-width: 300px;
-    min-height: 100px;
-  }
-
-  .participant-img {
-    max-width: 308px;
-    min-height: 390px;
-  }
-
-  #yekaterina {
-    width: 150px;
-    height: 32.73px;
-    font-size: 14px;
-  }
-  #fbicon {
-    width: 14.91px;
-    height: 17.2px;
-  }
-  #girlicon {
-    width: 85px;
-    min-height: 64px;
-    padding: 0px;
-  }
-}
-
-@media only screen and (max-width: 464px) {
-  #participants-header {
-    max-width: 200px;
-    min-height: 100px;
-  }
-
-  #sentyabr {
-    max-width: 200px;
-    min-height: 100px;
   }
 }

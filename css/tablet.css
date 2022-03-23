@@ -59,7 +59,7 @@
 
   #sentyabr {
     font-size: 32px;
-    width: 525.88px;
+    width: 68.5%;
     margin-top: 0px;
     padding-top: 0px;
     height: 38.23px;
@@ -359,15 +359,5 @@
     height: 34px;
     top: 167px;
     left: -16px;
-  }
-}
-@media only screen and (max-width: 706px) {
-  #participants-header {
-    max-width: 400px;
-    min-height: 100px;
-  }
-  #sentyabr {
-    max-width: 400px;
-    min-height: 100px;
   }
 }
