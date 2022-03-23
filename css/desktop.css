@@ -147,6 +147,10 @@
   margin-right: 37, 9%;
   color: white;
   box-sizing: border-box;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 .block-text {
   font-family: Roboto Slab;
@@ -240,7 +244,7 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  padding: 0 0 160px 0;
+  padding: 80px 50px 160px 50px;
 }
 
 #classes-hours-weeks h3 {

@@ -167,7 +167,8 @@
   }
   /* ----------------Eldar------- */
   .container {
-    padding: 0 35px;
+    max-width: 303px;
+    
   }
 
   #classes-hours-weeks {
@@ -180,6 +181,8 @@
   }
 
   #classes-hours-weeks h3 {
+    height: 14px;
+    width: 85px;
     font-size: 12px;
     margin: 0;
     padding: 10px 0px;
@@ -208,7 +211,11 @@
   #format .item {
     padding-bottom: 0px;
   }
-
+  #format h3 {
+    font-size: 12px;
+    height: 13px;
+    width: 180px;
+  }
   #learn {
     padding: 0;
     margin-left: 35px;
