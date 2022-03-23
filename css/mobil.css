@@ -1,4 +1,215 @@
 @media only screen and (max-width: 375px) {
+  #course-participants {
+    max-height: 423px;
+  }
+
+  #course-start {
+    height: 363px;
+    box-sizing: border-box;
+  }
+  .course-start-container {
+    height: 363px;
+  }
+  .footer-container {
+    height: 100%;
+  }
+  #footer {
+    box-sizing: border-box;
+    height: 251px;
+    padding: 0px;
+    margin: 0;
+  }
+
+  h4 {
+    margin-top: 20px;
+    font-size: 26px;
+    width: 257px;
+    height: 69px;
+  }
+  .participant-img {
+    max-width: 308px;
+    min-height: 248px;
+    padding: 20px;
+    padding-right: 30px;
+    margin-right: 8%;
+    margin-top: 35px;
+  }
+  #participantdiv {
+    font-size: 10px;
+    max-width: 266px;
+    max-height: 111px;
+  }
+  .participantflex {
+    max-width: 300.04px;
+    min-height: 47.88px;
+    margin-top: 40px;
+  }
+
+  #yekaterina {
+    width: 150.49px;
+    height: 32.73px;
+    font-size: 14px;
+  }
+  #fbicon {
+    width: 14.91px;
+    height: 17.2px;
+  }
+  #girlicon {
+    width: 95px;
+    min-height: 84px;
+    padding: 0px;
+  }
+  #yekaterinafb {
+    padding-left: 0;
+  }
+
+  h3 {
+    margin-top: 20px;
+    width: 224px;
+    height: 63px;
+    font-size: 26px;
+  }
+  #price {
+    margin-top: 40px;
+    width: 79.22px;
+    height: 14.91px;
+    font-size: 12px;
+  }
+
+  #pricevalue {
+    width: 224.13px;
+    height: 84.34px;
+    font-size: 37px;
+  }
+
+  #priceheader1,
+  #priceheader2 {
+    font-size: 12px;
+    max-width: 137px;
+    height: 14.91px;
+  }
+
+  .pricetext {
+    font-size: 10px;
+    max-width: 100px;
+    height: 47px;
+  }
+
+  .priceflex {
+    display: flex;
+    padding-bottom: 63pxpx;
+    width: 270px;
+  }
+
+  #firstpricebox {
+    max-width: 138px;
+    min-height: 47px;
+  }
+
+  #secondpricebox {
+    max-width: 100px;
+    min-height: 38px;
+  }
+
+  #logo-mobile-icon {
+    width: 53.59px;
+    height: 31.69px;
+    margin-bottom: 13px;
+  }
+
+  #phone-number,
+  #mail {
+    font-size: 12px;
+    width: 107.17px;
+    height: 18.64px;
+  }
+
+  #phone-icon,
+  #mail-icon {
+    width: 12.58px;
+    height: 12.58px;
+    margin-right: 10px;
+  }
+
+  #mail-icon {
+    width: 12.58px;
+    height: 8.39px;
+    margin-right: 10px;
+  }
+
+  #copyright {
+    font-size: 10px;
+    width: 141px;
+    height: 19px;
+    margin-top: 47px;
+    margin-left: 30px;
+    color: white;
+  }
+
+  .socialicon {
+    width: 15.38px;
+    height: 15.38px;
+  }
+
+  #footer-icon-flex {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  #contact {
+    margin-bottom: 0px;
+    margin-top: 47px;
+  }
+
+  .container {
+    padding: 0 35px;
+  }
+
+  #classes-hours-weeks {
+    padding: 0 0 70px 0;
+  }
+
+  #classes-hours-weeks .photo {
+    display: none;
+  }
+
+  #classes-hours-weeks h3 {
+    font-size: 12px;
+    margin: 7px 0;
+  }
+
+  #classes-hours-weeks p {
+    font-size: 10px;
+    font-weight: 400;
+    width: 81px;
+    margin-right: 40px;
+  }
+
+  #format {
+    padding: 0 0 80px 0;
+  }
+
+  #format h2 {
+    font-size: 26px;
+    margin: 0 0 35px 0;
+  }
+
+  #format .items {
+    flex-direction: column;
+  }
+
+  #format .item {
+    margin-right: 120px;
+  }
+
+  #learn {
+    padding: 0 0 65px 0;
+  }
+
+  #learn h2 {
+    font-size: 26px;
+    margin: 0 0 30px 0;
+  }
+
   .container {
     padding: 0 35px;
   }
@@ -112,21 +323,22 @@
     line-height: 15.6px;
   }
 
-
   /* -----Rafael's for mobil---- */
-  .first{
+  .first {
     width: 52.19px;
     height: 30.75px;
     min-width: 52.19px;
     min-height: 30.75px;
     margin-bottom: 44px;
-}
-.globe1{
+  }
+  .globe1 {
     width: 11%;
     max-height: 21px;
-}
-.globe2, .date2, .time2{
-    font-family: 'Roboto';
+  }
+  .globe2,
+  .date2,
+  .time2 {
+    font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
     font-size: 10px;
@@ -134,88 +346,93 @@
     margin-left: 5px;
     align-items: center;
     align-self: center;
-}
-.globe-image, .date-image, .time-image{
+  }
+  .globe-image,
+  .date-image,
+  .time-image {
     width: 100%;
     height: 100%;
-}
-.globe1, .time1, .date1{
+  }
+  .globe1,
+  .time1,
+  .date1 {
     align-items: center;
     align-self: center;
     min-width: 14px;
     min-height: 14px;
-}
-.time1{
+  }
+  .time1 {
     width: 12%;
     max-height: 22px;
-}
-.time2{
+  }
+  .time2 {
     text-shadow: none;
     font-weight: normal;
-}
-.date1{
+  }
+  .date1 {
     width: 10%;
     max-height: 22px;
     min-height: 14px;
     min-width: 14px;
-}
-.date, .globe{
+  }
+  .date,
+  .globe {
     width: 11.1%;
     min-width: 100px;
-}
-.time{
+  }
+  .time {
     width: 11.1%;
     min-width: 100px;
-}
-.main-2{
+  }
+  .main-2 {
     width: 100%;
     display: block;
-}
-.nolan{
+  }
+  .nolan {
     width: 141.66px;
     height: 165.89px;
     min-width: 141.66px;
     min-height: 165.89px;
     max-height: 165.89px;
     margin-left: 50%;
-}
-.ellipse1{
-    position:absolute;
+  }
+  .ellipse1 {
+    position: absolute;
     bottom: -12px;
     right: 0px;
     width: 127px;
     z-index: -1;
-}
-.kino{
+  }
+  .kino {
     width: 290px;
-}
-.kino-head{
+  }
+  .kino-head {
     font-size: 37px;
     width: 290px;
-}
-.kino-text{
+  }
+  .kino-text {
     font-size: 10px;
-}
-.block{
+  }
+  .block {
     width: 225px;
     height: 93px;
     margin-left: 9%;
-}
-.block-text{
+  }
+  .block-text {
     font-size: 11px;
     padding-left: 12px;
     padding-top: 9px;
-}
-.block-author{
+  }
+  .block-author {
     font-size: 13px;
-}
-.wick{
+  }
+  .wick {
     display: block;
-}
-h1{
+  }
+  h1 {
     font-size: 26px;
-}
-.okurse{
+  }
+  .okurse {
     display: block;
     font-family: Roboto;
     font-style: normal;
@@ -223,26 +440,70 @@ h1{
     font-size: 12px;
     line-height: 150%;
     width: 70%;
-}
-.camera{
+  }
+  .camera {
     width: 146.32px;
     height: 146.78px;
     min-width: 146.32px;
     min-height: 146.78px;
     margin: 15px 40%;
     flex-direction: column;
-}
-.camera-photo{
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
+  }
+  .camera-photo {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
 
-.ellipse2{
+  .ellipse2 {
     bottom: -13.5px;
     right: -12px;
     width: 170.5px;
     height: 27px;
     z-index: -1;
+  }
 }
+
+@media only screen and (max-width: 540px) {
+  #participants-header {
+    max-width: 300px;
+    min-height: 100px;
+  }
+
+  #sentyabr {
+    max-width: 300px;
+    min-height: 100px;
+  }
+
+  .participant-img {
+    max-width: 308px;
+    min-height: 390px;
+  }
+
+  #yekaterina {
+    width: 150px;
+    height: 32.73px;
+    font-size: 14px;
+  }
+  #fbicon {
+    width: 14.91px;
+    height: 17.2px;
+  }
+  #girlicon {
+    width: 85px;
+    min-height: 64px;
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 464px) {
+  #participants-header {
+    max-width: 200px;
+    min-height: 100px;
+  }
+
+  #sentyabr {
+    max-width: 200px;
+    min-height: 100px;
+  }
 }
