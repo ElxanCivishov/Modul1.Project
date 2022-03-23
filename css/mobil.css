@@ -2,7 +2,6 @@
   #course-participants {
     max-height: 423px;
   }
-
   #course-start {
     height: 363px;
     box-sizing: border-box;
@@ -159,13 +158,14 @@
     margin-bottom: 0px;
     margin-top: 47px;
   }
-
+  /* ----------------Eldar------- */
   .container {
     padding: 0 35px;
   }
 
   #classes-hours-weeks {
     padding: 0 0 70px 0;
+    margin-left: 35px;
   }
 
   #classes-hours-weeks .photo {
@@ -183,14 +183,25 @@
     width: 81px;
     margin-right: 40px;
   }
-
+  .item h3 {
+    height: 18px;
+    width: 69px;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  #classes-hours-weeks p {
+    margin: 0px 33px 34px 0px;
+  }
   #format {
     padding: 0 0 80px 0;
+    margin-left: 35px;
+    margin-top: 0px;
+    margin-top: 0px;
   }
 
   #format h2 {
     font-size: 26px;
-    margin: 0 0 35px 0;
+    margin: 0;
   }
 
   #format .items {
@@ -203,6 +214,7 @@
 
   #learn {
     padding: 0 0 65px 0;
+    margin-left: 35px;
   }
 
   #learn h2 {
@@ -210,59 +222,6 @@
     margin: 0 0 30px 0;
   }
 
-  .container {
-    padding: 0 35px;
-  }
-
-  #classes-hours-weeks {
-    padding: 0 0 70px 0;
-  }
-
-  #classes-hours-weeks .photo {
-    display: none;
-  }
-  #classes-hours-weeks h3 {
-    font-size: 12px;
-    margin: 7px 0;
-  }
-
-  #classes-hours-weeks p {
-    font-size: 10px;
-    font-weight: 400;
-    width: 81px;
-    margin-right: 40px;
-  }
-
-  #format {
-    padding: 0 0 80px 0;
-  }
-
-  #format h2 {
-    font-size: 26px;
-    margin: 0 0 35px 0;
-  }
-
-  #format .items {
-    flex-direction: column;
-  }
-
-  #format .item {
-    margin-right: 120px;
-  }
-
-  #learn h2 {
-    font-size: 26px;
-    margin: 0 0 30px 0;
-  }
-
-  #learn ul {
-    font-size: 12px;
-    padding-left: 18px;
-  }
-  #learn span {
-    position: relative;
-    left: -6px;
-  }
   /* ---------Elxan's css for mobil-------- */
   /* ----header---- */
   #course-program {
@@ -390,15 +349,14 @@
   }
   .nolan {
     width: 141.66px;
-    height: 165.89px;
     min-width: 141.66px;
-    min-height: 165.89px;
-    max-height: 165.89px;
+    min-height: 175.89px;
+    max-height: 175.89px;
     margin-left: 50%;
   }
   .ellipse1 {
     position: absolute;
-    bottom: -12px;
+    top: 155px;
     right: 0px;
     width: 127px;
     z-index: -1;
@@ -440,13 +398,16 @@
     font-size: 12px;
     line-height: 150%;
     width: 70%;
+    margin-left: 36px;
   }
   .camera {
     width: 146.32px;
     height: 146.78px;
     min-width: 146.32px;
     min-height: 146.78px;
-    margin: 15px 40%;
+    margin: auto;
+    margin-top: 56px;
+    margin-bottom: 43px;
     flex-direction: column;
   }
   .camera-photo {
@@ -456,11 +417,11 @@
   }
 
   .ellipse2 {
-    bottom: -13.5px;
+    position: absolute;
+    top: 135px;
     right: -12px;
     width: 170.5px;
     height: 27px;
-    z-index: -1;
   }
 }
 

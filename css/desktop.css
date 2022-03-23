@@ -1,7 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-/* ----course-participants----- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -9,12 +7,401 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 1440px;
-  padding: 0 124px;
-  margin: 0 auto;
+/* ------------Rafael's css--------- */
+#header {
+  width: 100%;
+}
+.first {
+  width: 112px;
+  height: 66px;
+  max-width: 112px;
+  max-height: 66px;
+  display: block;
+  margin: 21px 0px 80px 8.5%;
+}
+.first-photo {
+  width: 100%;
+  height: 100%;
+}
+.main,
+.globe,
+.date,
+.time {
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  margin-left: 8.5%;
+  width: 100%;
+  max-width: 320px;
+  justify-content: flex-start;
+}
+.globe1 {
+  width: 11%;
+  max-height: 21px;
+  min-height: 11px;
+  min-width: 11px;
+}
+.globe2,
+.time2,
+.date2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 115%;
+  margin-left: 5px;
+}
+.globe-image,
+.time-image,
+.date-image {
+  width: 100%;
+  height: 100%;
+}
+.globe1,
+.date1,
+.time1 {
+  align-items: center;
+  align-self: center;
+}
+.time1 {
+  width: 12%;
+  max-height: 22px;
+  min-height: 11px;
+  min-width: 11px;
+}
+.date1 {
+  width: 10%;
+  max-height: 22px;
+  min-width: 11px;
+  min-height: 11px;
+}
+.date,
+.globe {
+  width: 11.1%;
+  min-width: 140px;
+}
+.globe {
+  min-width: 165px;
+}
+.time {
+  width: 9%;
+  min-width: 140px;
+}
+.nolan {
+  width: 304px;
+  min-width: 304px;
+  min-height: 356px;
+  max-height: 356px;
+  margin-right: 5%;
+  margin-left: 9%;
+  position: relative;
+  z-index: 0;
+}
+.nolan-photo {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.ellipse1 {
+  position: absolute;
+  bottom: -20px;
+  right: 0px;
+  width: 274px;
+  z-index: -1;
+}
+.main-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.kino {
+  width: 53.3%;
+  margin-left: 8.5%;
+}
+.kino-head {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 101.38%;
+  margin-top: 29px;
+  margin-bottom: 0px;
+}
+.kino-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+}
+.block {
+  width: 483.63px;
+  height: 200.02px;
+  background-color: #1e4681;
+  border-radius: 5px;
+  justify-content: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  margin-left: 28.4%;
+  margin-right: 37, 9%;
+  color: white;
   box-sizing: border-box;
 }
+.block-text {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 130%;
+  padding: 19px 27px 5px 26px;
+  margin: 0px;
+}
+.block-author {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: end;
+  padding-right: 18px;
+  margin: 0px;
+}
+.wick {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 101.38%;
+}
+.okurse {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+  text-align: left;
+  width: 662px;
+  margin-right: 150px;
+  margin-left: 121px;
+}
+.camera {
+  position: relative;
+  margin-top: 8%;
+  margin-right: 150px;
+}
+.camera-photo {
+  max-width: 314px;
+  height: 315px;
+}
+.ellipse2 {
+  position: absolute;
+  max-width: 366px;
+  top: 290px;
+  left: -26px;
+  height: 59px;
+  z-index: -1;
+}
+
+/* --------Eldar's css for desctop--- */
+#classes-hours-weeks .photo {
+  position: relative;
+  margin-right: 125px;
+  margin-top: 90px;
+  margin-left: 121px;
+}
+
+.photo-first {
+  width: 232px;
+  height: 203px;
+}
+
+.photo-first-ellipse {
+  width: 189px;
+  height: 32px;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  z-index: -1;
+  transform: translate(0, 50%);
+  -webkit-transform: translate(0, 50%);
+  -moz-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  -o-transform: translate(0, 50%);
+}
+
+#classes-hours-weeks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  padding: 0 0 160px 0;
+}
+
+#classes-hours-weeks h3 {
+  font-size: 25px;
+  line-height: 130%;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+#classes-hours-weeks p {
+  font-size: 18px;
+  line-height: 130%;
+  font-weight: 400;
+  display: inline-block;
+  width: 150px;
+  margin-right: 100px;
+}
+
+#format {
+  padding: 0 0 212px 0;
+  margin-left: 121px;
+}
+
+#format h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 55px;
+  line-height: 101.38%;
+  margin: 0 0 132px 0;
+}
+
+#format .items {
+  display: flex;
+}
+
+#format .item {
+  margin-right: 125px;
+}
+
+#format h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #1e4681;
+  font-size: 25px;
+  line-height: 130%;
+  margin: 5px 0;
+}
+
+#format p {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #000000;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 5px 0;
+}
+#learn {
+  margin-left: 121px;
+}
+#learn h2 {
+  font-family: "Roboto Slab", serif;
+  font-weight: bold;
+  color: #000000;
+  font-size: 55px;
+  line-height: 101.38%;
+  margin: 0 0 70px 0;
+}
+
+#learn ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  color: #000000;
+  list-style-position: outside;
+  padding-left: 18px;
+  font-size: 24px;
+  line-height: 150%;
+}
+#learn span {
+  position: relative;
+  left: -7px;
+}
+
+/* --Elxan's css ------- */
+
+#course-program {
+  max-width: 1440px;
+  height: auto;
+}
+#course-program-header {
+  width: 67.1%;
+  height: 93px;
+  margin: 248px 0px 95px 121px;
+}
+
+#course-program-header h2 {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 56px;
+  color: #000000;
+}
+.course-program-container {
+  display: flex;
+  width: 100%;
+  padding-left: 6.4%;
+  padding-right: 6.2%;
+  column-gap: 37px;
+  flex-wrap: wrap;
+}
+.course-program-blok {
+  width: 31%;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  height: 328px;
+  margin-bottom: 41px;
+  background: #fff;
+  /*padding-bottom: 10px */
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.course-program-image {
+  width: 100%;
+  height: 160px;
+}
+.course-program-image img {
+  width: 100%;
+  height: 100%;
+}
+.course-program-text {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: 39px;
+  color: #000000;
+  height: 168px;
+}
+.course-program-text-item {
+  height: 39px;
+  font-weight: 700;
+  margin: 11px 14px 32px 20px;
+  font-size: 30px;
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.course-program-text-footer {
+  line-height: 32.5px;
+  vertical-align: top;
+  margin: 32px 15px 23px 19px;
+  padding-top: 7px;
+  padding-bottom: 5px;
+}
+.course-program-text-footer p {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+/* -----------------Konul's css -------- */
 .course-participants-container {
   width: 100%;
   background: #efefef;
@@ -22,11 +409,10 @@
   padding-left: 8%;
   padding-top: 5%;
 }
-
 #participants-header {
   padding-left: 1%;
   margin-bottom: 1%;
-  width: 987px;
+  width: 75.5%;
   height: 93px;
   font-family: Roboto Slab;
   font-style: normal;
@@ -35,14 +421,18 @@
   line-height: 101.38%;
   color: #000000;
 }
-
 .participant-img {
   background: #ffffff;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
   max-width: 791px;
   min-height: 451px;
+  margin-top: 20px;
   padding: 35px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
 }
 #participantdiv {
   font-family: Roboto;
@@ -63,12 +453,10 @@
   padding-top: 8%;
   padding-left: 5%;
 }
-
 #girlicon {
   max-width: 50%;
   max-height: 21%;
 }
-
 #yekaterina {
   width: 353px;
   height: 59px;
@@ -79,12 +467,10 @@
   line-height: 101.38%;
   color: #000000;
 }
-
 #fbicon {
   width: 32px;
   height: 31px;
 }
-
 /* ----course-start section---- */
 #course-start {
   background: #9dc9c8;
@@ -95,10 +481,12 @@
 .course-start-container {
   width: 100%;
   padding-left: 8%;
-  padding-top: 9%;
+  padding-top: 179px;
+  padding-top: 179px;
+  padding-bottom: 185px;
 }
 #sentyabr {
-  width: 908px;
+  width: 68.67%;
   height: 66px;
   font-family: Roboto Slab;
   font-style: normal;
@@ -108,7 +496,7 @@
   color: #000000;
 }
 .pricediv {
-  padding-top: 4%;
+  margin-top: 54px;
 }
 #price {
   width: 170px;
@@ -219,7 +607,6 @@
   width: 27px;
   height: 18px;
   margin-right: 20px;
-
 }
 #phone-number {
   width: 230px;
@@ -265,386 +652,4 @@
   margin-top: 140px;
   margin-right: 0;
   margin-left: 8%;
-}
-
-
-
-
-#classes-hours-weeks .photo {
-  position: relative;
-  margin-right: 125px;
-}
-
-.photo-first {
-  width: 232px;
-  height: 203px;
-}
-
-.photo-first-ellipse {
-  width: 189px;
-  height: 32px;
-  position: absolute;
-  bottom: 0;
-  left: 15%;
-  z-index: -1;
-  transform: translate(0, 50%);
-  -webkit-transform: translate(0, 50%);
-  -moz-transform: translate(0, 50%);
-  -ms-transform: translate(0, 50%);
-  -o-transform: translate(0, 50%);
-}
-
-#classes-hours-weeks {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  font-family: "Roboto", sans-serif;
-  padding: 0 0 160px 0;
-}
-
-#classes-hours-weeks h3 {
-  font-size: 25px;
-  line-height: 130%;
-  font-weight: 700;
-  margin: 10px 0;
-}
-
-#classes-hours-weeks p {
-  font-size: 18px;
-  line-height: 130%;
-  font-weight: 400;
-  display: inline-block;
-  width: 150px;
-  margin-right: 100px;
-}
-
-#format {
-  padding: 0 0 212px 0;
-}
-
-#format h2 {
-  font-family: "Roboto Slab", serif;
-  font-weight: bold;
-  color: #000000;
-  font-size: 55px;
-  line-height: 101.38%;
-  margin: 0 0 132px 0;
-}
-
-#format .items {
-  display: flex;
-}
-
-#format .item {
-  margin-right: 125px;
-}
-
-#format h3 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  color: #1e4681;
-  font-size: 25px;
-  line-height: 130%;
-  margin: 5px 0;
-}
-
-#format p {
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #000000;
-  font-size: 18px;
-  line-height: 130%;
-  margin: 5px 0;
-}
-
-#learn h2 {
-  font-family: "Roboto Slab", serif;
-  font-weight: bold;
-  color: #000000;
-  font-size: 55px;
-  line-height: 101.38%;
-  margin: 0 0 70px 0;
-}
-
-#learn ul {
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #000000;
-  list-style-position: outside;
-  padding-left: 18px;
-  font-size: 24px;
-  line-height: 150%;
-}
-#learn span {
-  position: relative;
-  left: -7px;
-}
-
-
-/* --Elxan's css ------- */
-
-#course-program {
-  max-width: 1440px;
-  height: auto;
-}
-#course-program-header {
-  width: 67.1%;
-  height: 93px;
-  margin: 248px 0px 95px 121px;
-}
-
-#course-program-header h2 {
-  font-family: "Roboto Slab", serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 55px;
-  line-height: 56px;
-  color: #000000;
-}
-.course-program-container {
-  display: flex;
-  width: 100%;
-  padding-left: 6.4%;
-  padding-right: 6.2%;
-  column-gap: 37px;
-  flex-wrap: wrap;
-}
-.course-program-blok {
-  width: 31%;
-  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
-  height: 328px;
-  margin-bottom: 41px;
-  background: #fff;
-  /*padding-bottom: 10px */
-  border-radius: 30px;
-  -webkit-border-radius: 30px;
-  -moz-border-radius: 30px;
-  -ms-border-radius: 30px;
-  -o-border-radius: 30px;
-}
-.course-program-image {
-  width: 100%;
-  height: 160px;
-}
-.course-program-image img {
-  width: 100%;
-  height: 100%;
-}
-.course-program-text {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  line-height: 39px;
-  color: #000000;
-  height: 168px;
-}
-.course-program-text-item {
-  height: 39px;
-  font-weight: 700;
-  margin: 11px 14px 32px 20px;
-  font-size: 30px;
-  color: black;
-  padding-top: 5px;
-  padding-bottom: 10px;
-}
-.course-program-text-footer {
-  line-height: 32.5px;
-  vertical-align: top;
-  margin: 32px 15px 23px 19px;
-  padding-top: 7px;
-  padding-bottom: 5px;
-}
-.course-program-text-footer p {
-  font-weight: 400;
-  font-size: 25px;
-}
-/* ------------Rafael's css--------- */
-.first{
-  width: 112px;
-  height: 66px;
-  max-width: 112px;
-  max-height: 66px;
-  display: block;
-  margin: 21px 0px 80px 8.5%;
-}
-.first-photo{
-  width: 100%;
-  height: 100%; 
-}
-.main, .globe, .date, .time{
-  display: flex;
-  flex-direction: row;
-}
-.main{
-  margin-left: 8.5%;
-  width: 100%;
-  max-width: 320px;
-  justify-content: flex-start;
-}
-.globe1{
-  width: 11%;
-  max-height: 21px;
-  min-height: 11px;
-  min-width: 11px;
-}
-.globe2, .time2, .date2{
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 115%;
-  margin-left: 5px;
-}
-.globe-image, .time-image, .date-image {
-  width: 100%;
-  height: 100%;
-}
-.globe1, .date1, .time1{
-  align-items: center;
-  align-self: center;
-}
-.time1{
-  width: 12%;
-  max-height: 22px;
-  min-height: 11px;
-  min-width: 11px;
-}
-.date1{
-  width: 10%;
-  max-height: 22px;
-  min-width: 11px;
-  min-height: 11px;
-}
-.date, .globe {
-  width: 11.1%;
-  min-width: 140px;
-}
-.globe {
-  min-width: 165px;
-}
-.time{
-  width: 9%;
-  min-width: 140px;
-}
-.nolan{
-  width: 304px;
-  min-width: 304px;
-  min-height: 356px;
-  max-height: 356px;
-  margin-right: 5%;
-  margin-left: 9%;
-  position: relative;
-  z-index: 0;
-}
-.nolan-photo{
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-.ellipse1{
-  position:absolute;
-  bottom: -20px;
-  right: 0px;
-  width: 274px;
-  z-index: -1;
-}
-.main-2{
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-.kino{
-  width: 53.3%;
-  margin-left: 8.5%;
-}
-.kino-head{
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 80px;
-  line-height: 101.38%;
-  margin-top: 29px;
-  margin-bottom: 0px;
-}
-.kino-text{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 150%
-}
-.block{
-  width: 483.63px;
-  height: 200.02px;
-  background-color: #1E4681;
-  border-radius: 5px;
-  justify-content: center;
-  margin-top: 70px;
-  margin-bottom: 70px;
-  margin-left: 28.4%;
-  margin-right: 37,9%;
-  color: white;
-  box-sizing: border-box;
-}
-.block-text{
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 25px;
-  line-height: 130%;
-  padding: 19px 27px 5px 26px;
-  margin: 0px;
-}
-.block-author{
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 130%;
-  text-align: end;
-  padding-right: 18px;
-  margin: 0px;
-}
-.wick{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-}
-h1{
-  font-family: Roboto Slab;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 55px;
-  line-height: 101.38%;
-}
-.okurse{
-  font-family: Roboto;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 36px;
-  text-align: left;
-  width: 662px;
-  margin-left: 80px;
-}
-.camera{
-  width: 181.86px;
-  height: 182.44px;
-  min-width: 181.86px;
-  min-height: 182.44px;
-  position: relative;
-  margin-top: 8%;
-  margin-right: 145px;
-  z-index: 0;
-}
-.camera-photo{
-  width: 314px;
-  height: 315px;
-  z-index: 0;
-}
-.ellipse2{
-  bottom: -17px;
-  right: -15px;
-  width: 366px;
-  height: 59px;
-  z-index: -1;
 }

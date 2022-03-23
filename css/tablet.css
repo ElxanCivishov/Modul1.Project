@@ -1,6 +1,11 @@
 @media only screen and (max-width: 834px) {
   #course-start {
     max-height: 451.75px;
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .course-start-container {
+    padding-top: 103px;
   }
   #course-participants {
     max-height: 451.75px;
@@ -55,6 +60,8 @@
   #sentyabr {
     font-size: 32px;
     width: 525.88px;
+    margin-top: 0px;
+    padding-top: 0px;
     height: 38.23px;
   }
   #price {
@@ -125,66 +132,7 @@
     padding: 0 70px;
   }
 
-  #classes-hours-weeks {
-    padding-bottom: 90px;
-  }
-
-  #classes-hours-weeks .photo {
-    margin-right: 77px;
-  }
-
-  .photo-first {
-    width: 134.37px;
-    height: 117.57px;
-  }
-
-  .photo-first-ellipse {
-    width: 109.46px;
-    height: 18.53px;
-    position: absolute;
-    bottom: 0;
-    left: 15%;
-    z-index: -1;
-    transform: translate(0, 25%);
-  }
-
-  #classes-hours-weeks h3 {
-    font-size: 15px;
-    line-height: 130%;
-  }
-
-  #classes-hours-weeks p {
-    font-size: 11px;
-
-    margin: 8px 0;
-    width: 90px;
-    margin-right: 50px;
-  }
-
-  #format {
-    padding: 0 0 122px 0;
-  }
-
-  #format h2 {
-    font-size: 32px;
-    margin: 0 0 80px 0;
-  }
-
-  #format .item {
-    margin-right: 64px;
-  }
-
-  #format h3 {
-    font-size: 15px;
-  }
-
-  #format p {
-    font-size: 11px;
-  }
-
-  #learn {
-    padding: 0 0 130px 0;
-  }
+  /* -------Eldar's css for tablet --------- */
 
   .container {
     padding: 0 70px;
@@ -192,10 +140,12 @@
 
   #classes-hours-weeks {
     padding-bottom: 90px;
+    margin-left: 90px;
   }
 
   #classes-hours-weeks .photo {
     margin-right: 77px;
+    margin-left: 0px;
   }
 
   .photo-first {
@@ -232,6 +182,7 @@
 
   #format {
     padding: 0 0 122px 0;
+    margin-left: 90px;
   }
 
   #format h2 {
@@ -250,8 +201,9 @@
   #format p {
     font-size: 11px;
   }
-
-
+  #learn {
+    margin-left: 90px;
+  }
   #learn h2 {
     font-size: 32px;
     margin: 0 0 40px 0;
@@ -260,8 +212,6 @@
   #learn ul {
     font-size: 14px;
   }
-
-
 
   /* ----------Elxan's css  for tablet ------- */
   #course-program {
@@ -321,16 +271,16 @@
   }
 
   /* ---------Rafael's for tablet --------- */
-  .first{
+  .first {
     width: 64.87px;
     height: 38.23px;
     max-width: 64.87px;
     max-height: 38.23px;
-}
-.time{
+  }
+  .time {
     margin-left: 20px;
-}
-.nolan{
+  }
+  .nolan {
     width: 176px;
     min-width: 176px;
     min-height: 206px;
@@ -339,67 +289,85 @@
     margin-left: 9%;
     position: relative;
     z-index: 0;
-}
-.ellipse2{
-    position:absolute;
+  }
+  .nolan-photo {
+    width: 100%;
+    height: 100%;
+  }
+  .ellipse1 {
+    position: absolute;
+    top: 195px;
+    width: 158px;
+    height: 24px;
+  }
+  .ellipse1-img {
+    width: 100%;
+    height: 100%;
+  }
+  .ellipse2 {
+    position: absolute;
     bottom: -12px;
     right: 0px;
     width: 158px;
     z-index: -1;
-}
-.kino-head{
+  }
+  .kino-head {
     font-size: 46px;
-}
-.kino-text{
+  }
+  .kino-text {
     font-size: 12px;
-}
-.block{
+  }
+  .block {
     width: 280px;
     height: 115px;
-}
-.block-text{
+  }
+  .block-text {
     font-size: 14px;
-}
-.block-author{
+  }
+  .block-author {
     font-size: 12px;
-}
-h1{
+  }
+  h1 {
     font-size: 32px;
-}
-.okurse{
+  }
+  .okurse {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 150%;
-}
-.camera{
-    width: 181.86px;
-    height: 182.44px;
-    min-width: 181.86px;
-    min-height: 182.44px;
-}
-.camera-photo{
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-}
-.ellipse1{
-    bottom: -17px;
-    right: -15px;
-    width: 211.98px;
-    height: 34.17px;
-    z-index: -1;
-    }
+    margin-left: 90px;
+    margin-right: 110px;
+  }
 
+  .camera {
+    position: relative;
+    max-width: 181px;
+    max-height: 182px;
+  }
+  .camera-photo {
+    width: 181px;
+    max-height: 182px;
+  }
+  .camera .camera-img {
+    width: 100%;
+    height: 100%;
+  }
+  .ellipse2 {
+    position: absolute;
+    width: 211px;
+    height: 34px;
+    top: 167px;
+    left: -16px;
+  }
 }
 @media only screen and (max-width: 706px) {
   #participants-header {
     max-width: 400px;
     min-height: 100px;
   }
-  #sentyabr{
-    max-width:400px;
-    min-height:100px;
+  #sentyabr {
+    max-width: 400px;
+    min-height: 100px;
   }
 }
