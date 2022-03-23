@@ -10,8 +10,8 @@
 }
 
 .container {
-  max-width: 1440px;
-  padding: 0 124px;
+  max-width: 1280px;
+  /*padding: 0 124px;*/
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -299,7 +299,7 @@
   flex-wrap: wrap;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  padding: 0 0 160px 0;
+  padding: 80px 50px 160px 50px;
 }
 
 #classes-hours-weeks h3 {
@@ -319,7 +319,7 @@
 }
 
 #format {
-  padding: 0 0 212px 0;
+  padding: 0 50px 212px 50px;
 }
 
 #format h2 {
@@ -355,6 +355,10 @@
   font-size: 18px;
   line-height: 130%;
   margin: 5px 0;
+}
+
+#learn {
+  padding: 0 50px;
 }
 
 #learn h2 {
