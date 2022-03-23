@@ -134,11 +134,8 @@
 
   /* -------Eldar's css for tablet --------- */
 
-  .container {
-    padding: 0 70px;
-  }
-
   #classes-hours-weeks {
+    padding: 0;
     padding-bottom: 90px;
     margin-left: 90px;
   }
