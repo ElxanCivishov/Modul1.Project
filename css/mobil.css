@@ -161,7 +161,8 @@
   }
 
   .container {
-    padding: 0 35px;
+    max-width: 303px;
+    
   }
 
   #classes-hours-weeks {
@@ -173,6 +174,8 @@
   }
 
   #classes-hours-weeks h3 {
+    height: 14px;
+    width: 85px;
     font-size: 12px;
     margin: 7px 0;
   }
@@ -200,7 +203,11 @@
   #format .item {
     margin-right: 120px;
   }
-
+  #format h3 {
+    font-size: 12px;
+    height: 13px;
+    width: 180px;
+  }
   #learn {
     padding: 0 0 65px 0;
   }
