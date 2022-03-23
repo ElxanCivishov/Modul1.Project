@@ -2,13 +2,13 @@
   #course-participants {
     max-height: 423px;
   }
-
   #course-start {
     height: 363px;
     box-sizing: border-box;
   }
   .course-start-container {
     height: 363px;
+    padding-top: 62px;
   }
   .footer-container {
     height: 100%;
@@ -19,29 +19,32 @@
     padding: 0px;
     margin: 0;
   }
-
+  .course-participants-container {
+    height: 423px;
+  }
   h4 {
     margin-top: 20px;
+    margin-bottom: 11px;
     font-size: 26px;
     width: 257px;
     height: 69px;
   }
   .participant-img {
     max-width: 308px;
-    min-height: 248px;
-    padding: 20px;
-    padding-right: 30px;
+    max-height: 248px;
+    padding: 0px 30px 10px 20px;
     margin-right: 8%;
-    margin-top: 35px;
+    margin-top: 20px;
   }
   #participantdiv {
     font-size: 10px;
     max-width: 266px;
     max-height: 111px;
+    padding-top: 20px;
   }
   .participantflex {
     max-width: 300.04px;
-    min-height: 47.88px;
+    max-height: 47.88px;
     margin-top: 40px;
   }
 
@@ -62,11 +65,14 @@
   #yekaterinafb {
     padding-left: 0;
   }
+  #sentyabr {
+    max-height: 63px;
+    width: 224px;
+  }
 
   h3 {
-    margin-top: 20px;
     width: 224px;
-    height: 63px;
+    height: 100%;
     font-size: 26px;
   }
   #price {
@@ -159,14 +165,15 @@
     margin-bottom: 0px;
     margin-top: 47px;
   }
-
+  /* ----------------Eldar------- */
   .container {
     max-width: 303px;
     
   }
 
   #classes-hours-weeks {
-    padding: 0 0 70px 0;
+    padding: 0;
+    margin-left: 35px;
   }
 
   #classes-hours-weeks .photo {
@@ -177,31 +184,32 @@
     height: 14px;
     width: 85px;
     font-size: 12px;
-    margin: 7px 0;
+    margin: 0;
+    padding: 10px 0px;
   }
-
   #classes-hours-weeks p {
     font-size: 10px;
     font-weight: 400;
     width: 81px;
+    margin: 0;
     margin-right: 40px;
   }
-
   #format {
-    padding: 0 0 80px 0;
+    padding: 0;
+    margin: 73px 10px 0px 35px;
   }
 
   #format h2 {
     font-size: 26px;
-    margin: 0 0 35px 0;
+    margin: 0;
   }
-
   #format .items {
     flex-direction: column;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
-
   #format .item {
-    margin-right: 120px;
+    padding-bottom: 0px;
   }
   #format h3 {
     font-size: 12px;
@@ -209,67 +217,21 @@
     width: 180px;
   }
   #learn {
-    padding: 0 0 65px 0;
+    padding: 0;
+    margin-left: 35px;
+    margin-top: 73px;
   }
 
   #learn h2 {
     font-size: 26px;
-    margin: 0 0 30px 0;
+    height: 43px;
+    margin: 0;
   }
-
-  .container {
-    padding: 0 35px;
-  }
-
-  #classes-hours-weeks {
-    padding: 0 0 70px 0;
-  }
-
-  #classes-hours-weeks .photo {
-    display: none;
-  }
-  #classes-hours-weeks h3 {
-    font-size: 12px;
-    margin: 7px 0;
-  }
-
-  #classes-hours-weeks p {
-    font-size: 10px;
-    font-weight: 400;
-    width: 81px;
-    margin-right: 40px;
-  }
-
-  #format {
-    padding: 0 0 80px 0;
-  }
-
-  #format h2 {
-    font-size: 26px;
-    margin: 0 0 35px 0;
-  }
-
-  #format .items {
-    flex-direction: column;
-  }
-
-  #format .item {
-    margin-right: 120px;
-  }
-
-  #learn h2 {
-    font-size: 26px;
-    margin: 0 0 30px 0;
-  }
-
   #learn ul {
-    font-size: 12px;
-    padding-left: 18px;
+    margin-top: 10px;
+    padding-bottom: 0px;
   }
-  #learn span {
-    position: relative;
-    left: -6px;
-  }
+
   /* ---------Elxan's css for mobil-------- */
   /* ----header---- */
   #course-program {
@@ -397,15 +359,14 @@
   }
   .nolan {
     width: 141.66px;
-    height: 165.89px;
     min-width: 141.66px;
-    min-height: 165.89px;
-    max-height: 165.89px;
+    min-height: 175.89px;
+    max-height: 175.89px;
     margin-left: 50%;
   }
   .ellipse1 {
     position: absolute;
-    bottom: -12px;
+    top: 155px;
     right: 0px;
     width: 127px;
     z-index: -1;
@@ -447,13 +408,16 @@
     font-size: 12px;
     line-height: 150%;
     width: 70%;
+    margin-left: 36px;
   }
   .camera {
     width: 146.32px;
     height: 146.78px;
     min-width: 146.32px;
     min-height: 146.78px;
-    margin: 15px 40%;
+    margin: auto;
+    margin-top: 56px;
+    margin-bottom: 43px;
     flex-direction: column;
   }
   .camera-photo {
@@ -463,54 +427,10 @@
   }
 
   .ellipse2 {
-    bottom: -13.5px;
+    position: absolute;
+    top: 135px;
     right: -12px;
     width: 170.5px;
     height: 27px;
-    z-index: -1;
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  #participants-header {
-    max-width: 300px;
-    min-height: 100px;
-  }
-
-  #sentyabr {
-    max-width: 300px;
-    min-height: 100px;
-  }
-
-  .participant-img {
-    max-width: 308px;
-    min-height: 390px;
-  }
-
-  #yekaterina {
-    width: 150px;
-    height: 32.73px;
-    font-size: 14px;
-  }
-  #fbicon {
-    width: 14.91px;
-    height: 17.2px;
-  }
-  #girlicon {
-    width: 85px;
-    min-height: 64px;
-    padding: 0px;
-  }
-}
-
-@media only screen and (max-width: 464px) {
-  #participants-header {
-    max-width: 200px;
-    min-height: 100px;
-  }
-
-  #sentyabr {
-    max-width: 200px;
-    min-height: 100px;
   }
 }
