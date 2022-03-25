@@ -23,14 +23,14 @@
   width: 100%;
   height: 100%;
 }
-.main-globe,
+.mainGlobe,
 .globe,
 .date,
 .time {
   display: flex;
   flex-direction: row;
 }
-.main-globe {
+.mainGlobe {
   margin-left: 8.5%;
   width: 100%;
   max-width: 320px;
