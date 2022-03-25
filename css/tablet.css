@@ -167,12 +167,13 @@
   #classes-hours-weeks h3 {
     font-size: 15px;
     line-height: 130%;
+    margin-bottom: 5px;
   }
 
   #classes-hours-weeks p {
     font-size: 11px;
 
-    margin: 8px 0;
+    margin: 0;
     width: 90px;
     margin-right: 50px;
   }
@@ -341,6 +342,7 @@
     position: relative;
     max-width: 181px;
     max-height: 182px;
+    margin-right: 80px;
   }
   .camera-photo {
     width: 181px;

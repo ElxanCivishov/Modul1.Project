@@ -173,8 +173,11 @@
   #classes-hours-weeks {
     padding: 0;
     margin-left: 35px;
+    margin-top: 0px;
   }
-
+  #classes-hours-weeks .item-container {
+    margin-top: 45px;
+  }
   #classes-hours-weeks .photo {
     display: none;
   }
