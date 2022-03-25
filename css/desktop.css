@@ -244,7 +244,7 @@ h1 {
   flex-wrap: wrap;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  padding: 80px 50px 160px 50px;
+  padding: 80px 50px 160px 0px;
 }
 #classes-hours-weeks .item-container {
   margin-top: 100px;
